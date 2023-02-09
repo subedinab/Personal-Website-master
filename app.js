@@ -6,7 +6,7 @@ const app = express();
 const path = require("path");
 const fs = require("fs");
 
-// external requests
+// external requestsy
 const request = require("request-promise");
 const url = require("url");
 const querystring = require("querystring");

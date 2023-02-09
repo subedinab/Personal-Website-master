@@ -2,9 +2,9 @@
   "name": "devon_crawford_website",
   "version": "1.0.1",
   "description": "personal website",
-  "main": "./views/pages/index.ejs",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "dev": "nodemon app.js"
   },
   "author": "Devon Crawford",
