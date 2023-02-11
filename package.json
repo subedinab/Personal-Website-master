@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "author": "Devon Crawford",
@@ -19,6 +19,6 @@
     "request-promise": "^4.2.2"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": "14.x"
   }
 }
